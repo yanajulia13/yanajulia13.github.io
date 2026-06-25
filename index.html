@@ -7,90 +7,47 @@
 <title>Profil Yana Julia ✨</title>
 
 <style>
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins',Arial,sans-serif;
 }
 
 body{
     min-height:100vh;
-    background:linear-gradient(135deg,#ffd6e8,#d7f9ff,#fff1b8);
+    background:linear-gradient(135deg,#ffd6e8,#d9f7ff,#fff5c4);
     display:flex;
     justify-content:center;
-    align-items:center;
     padding:30px;
-    overflow:hidden;
 }
 
 
-/* bubble background */
-.circle{
-    position:absolute;
-    border-radius:50%;
-    opacity:.5;
-    animation:float 6s infinite ease-in-out;
-}
-
-.c1{
-    width:180px;
-    height:180px;
-    background:#ff8fc7;
-    top:-50px;
-    left:-50px;
-}
-
-.c2{
-    width:140px;
-    height:140px;
-    background:#7ee8fa;
-    bottom:20px;
-    right:-40px;
-}
-
-@keyframes float{
-    50%{
-        transform:translateY(20px);
-    }
-}
-
-
-.card{
-
-    position:relative;
-    width:400px;
+.container{
+    width:450px;
     background:white;
-    border-radius:30px;
+    border-radius:35px;
     padding:35px;
-    text-align:center;
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
-    animation:show 1s ease;
-}
-
-
-@keyframes show{
-    from{
-        transform:translateY(40px);
-        opacity:0;
-    }
-    to{
-        transform:translateY(0);
-        opacity:1;
-    }
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
 }
 
 
 .profile{
+    text-align:center;
+}
+
+
+.avatar{
     width:120px;
     height:120px;
     margin:auto;
     border-radius:50%;
-    background:linear-gradient(135deg,#ff77b7,#8e7dff);
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background:linear-gradient(135deg,#ff5fa2,#8b7cff);
     color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-size:45px;
     font-weight:bold;
 }
@@ -101,62 +58,68 @@ h1{
     color:#ff4f9a;
 }
 
-.tag{
+
+.subtitle{
     color:#777;
-    margin:10px 0 20px;
+    margin:10px;
 }
 
 
-.bio{
-    background:#fff4fa;
-    padding:15px;
-    border-radius:20px;
-    color:#555;
-    line-height:1.6;
-}
-
-
-.info{
+.box{
     margin-top:20px;
-    text-align:left;
+    background:#fff5fb;
+    padding:18px;
+    border-radius:22px;
 }
 
 
-.item{
-    background:#f7f7ff;
-    margin:10px 0;
+.title{
+    color:#ff4f9a;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+
+.text{
+    color:#555;
+    line-height:1.7;
+}
+
+
+.list{
+    margin-top:10px;
+}
+
+
+.list div{
+    background:#f5f6ff;
     padding:12px;
+    margin:8px 0;
     border-radius:15px;
 }
 
 
-.item span{
-    color:#ff4f9a;
-    font-weight:bold;
-}
-
-
 .social{
+    display:block;
     margin-top:25px;
-    display:inline-block;
-    text-decoration:none;
-    background:linear-gradient(45deg,#ff4f9a,#8e7dff);
+    text-align:center;
+    background:linear-gradient(45deg,#ff4f9a,#8b7cff);
     color:white;
-    padding:12px 25px;
+    text-decoration:none;
+    padding:14px;
     border-radius:25px;
-    transition:.3s;
-}
-
-.social:hover{
-    transform:scale(1.05);
 }
 
 
 .quote{
-    margin-top:20px;
+    text-align:center;
+    margin-top:25px;
+    color:#888;
     font-style:italic;
-    color:#777;
 }
+
+
 
 </style>
 
@@ -165,76 +128,155 @@ h1{
 
 <body>
 
-<div class="circle c1"></div>
-<div class="circle c2"></div>
 
-
-<div class="card">
+<div class="container">
 
 
 <div class="profile">
+
+<div class="avatar">
 YJ
 </div>
 
 
 <h1>Yana Julia ✨</h1>
 
-<p class="tag">
-Creative Mind • Active Soul • Always Growing 🌸
+<p class="subtitle">
+Creative • Active • Growth Mindset 🌷
+</p>
+
+</div>
+
+
+
+<div class="box">
+
+<div class="title">
+🌸 Tentang Saya
+</div>
+
+<p class="text">
+
+Halo! Aku Yana Julia. Seseorang yang suka mengeksplorasi hal baru,
+belajar dari pengalaman, dan terus berkembang menjadi versi terbaik diri sendiri.
+
+Aku percaya setiap proses kecil akan membawa perubahan besar.
+Selalu mencoba memberikan energi positif, menciptakan ide kreatif,
+dan menikmati setiap perjalanan hidup ✨
+
+</p>
+
+</div>
+
+
+
+<div class="box">
+
+<div class="title">
+💖 Hobi & Kesukaan
+</div>
+
+
+<div class="list">
+
+<div>
+📸 Mengabadikan momen dan membuat konten kreatif
+</div>
+
+<div>
+☕ Menikmati waktu santai sambil mencari inspirasi
+</div>
+
+<div>
+📚 Belajar hal baru dan meningkatkan kemampuan diri
+</div>
+
+<div>
+💪 Menjaga kesehatan dan menjalani hidup aktif
+</div>
+
+<div>
+🎨 Eksplorasi ide kreatif dan desain menarik
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="box">
+
+<div class="title">
+✨ Fun Facts Tentang Yana
+</div>
+
+
+<div class="list">
+
+
+<div>
+🌈 Suka sesuatu yang estetik dan penuh warna
+</div>
+
+
+<div>
+🚀 Selalu punya rasa penasaran untuk mencoba hal baru
+</div>
+
+
+<div>
+🌻 Percaya bahwa progress lebih penting daripada perfection
+</div>
+
+
+<div>
+💡 Senang mengubah ide sederhana menjadi sesuatu yang menarik
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="box">
+
+<div class="title">
+🎯 My Goals
+</div>
+
+<p class="text">
+
+Terus berkembang, menjadi pribadi yang bermanfaat,
+membangun karya yang membanggakan,
+dan selalu membawa energi baik dimanapun berada 💕
+
 </p>
 
 
-<div class="bio">
-
-"Hidup adalah perjalanan untuk terus belajar,
-berkembang, dan menciptakan versi terbaik dari diri sendiri.
-Membawa energi positif, ide baru, dan semangat di setiap langkah 💖"
-
 </div>
 
-
-
-<div class="info">
-
-
-<div class="item">
-🌷 <span>Nama:</span> Yana Julia
-</div>
-
-
-<div class="item">
-📱 <span>Instagram:</span> @yanaajuliaa
-</div>
-
-
-<div class="item">
-✨ <span>Personality:</span> Aktif, kreatif, dan suka mencoba hal baru
-</div>
-
-
-<div class="item">
-🚀 <span>Passion:</span> Berkarya, belajar, dan berkembang
-</div>
-
-
-<div class="item">
-💡 <span>Motto:</span> Keep shining, keep improving!
-</div>
-
-
-</div>
 
 
 <a class="social" href="#">
-Follow My Journey ✨
+Instagram @yanaajuliaa ✨
 </a>
+
 
 
 <div class="quote">
 
-"Be the energy you want to attract 🌈"
+"Keep growing, keep glowing, and never stop being you 🌷"
 
 </div>
+
 
 
 </div>
